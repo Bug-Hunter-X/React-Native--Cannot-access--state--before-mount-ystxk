@@ -1,0 +1,1 @@
+This repository demonstrates a common React Native bug: attempting to access component state or props before the component has finished mounting. The `Bug.js` file showcases the error, while `BugSolution.js` provides a corrected version using `useEffect` to ensure state/props are accessed after mounting.
